@@ -48,7 +48,7 @@ namespace VerifIdentityCloudCheck.Steps
 					signatureHex += hashedMessage[i].ToString("X2"); // hex format
 				}
 				// Outputs: 53ccc8563d21393bbac5a5a693e0ba7cc408f83dfb04008122510eee9e80aa86
-				Console.WriteLine("Signature: " +signatureHex.ToLower());
+				// Console.WriteLine("Signature: " +signatureHex.ToLower());
 				return signatureHex.ToLower();
 			};
         }
